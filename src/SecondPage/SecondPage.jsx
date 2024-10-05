@@ -1,6 +1,8 @@
+import { useNavigate } from 'react-router-dom';
 import './SecondPage.css'
 
 const SecondPage = () => {
+    const navigate = useNavigate();
     return(
         <>
         <div className="secondPageContainer">
