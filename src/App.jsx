@@ -4,9 +4,9 @@ import StartPage from './StartPage/StartPage'
 import ErrorPage from './ErrorPage/ErrorPage'
 import FirstPage from './FirstPage/FirstPage'
 import SecondPage from './SecondPage/SecondPage'
+import SelectPage from './SelectPage/SelectPage'
 
 function App() {
-/**/
   return (
     <>
     <BrowserRouter>
@@ -16,6 +16,7 @@ function App() {
         <Route path='*' element= {<ErrorPage/>} />
         <Route path='/firstPage' element= {<FirstPage/>} />
         <Route path='/secondPage' element= {<SecondPage/>} />
+        <Route path='/selectPage' element= {<SelectPage />} />
       </Routes>
     </BrowserRouter>
     </>
