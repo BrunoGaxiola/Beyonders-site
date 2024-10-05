@@ -1,11 +1,11 @@
 import './App.css'
+import StartPage from './StartPage/StartPage'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      
+      <StartPage />
     </>
   )
 }
