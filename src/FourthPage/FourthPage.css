@@ -1,0 +1,25 @@
+.desc {
+    margin-top: 125px; 
+}
+.allText {
+    text-align: center; 
+    margin: 0 auto; 
+    padding-top: 100px; 
+}
+.planetImage {
+    position: absolute; 
+    top: 20px; 
+    right: 20px; 
+    height: 180px; 
+    width: 180px; 
+}
+
+.otherImages {
+  
+    position: absolute; 
+    top: 20px; 
+    right: 40%; 
+    height: 180px; 
+    width: 180px; 
+
+}

@@ -3,9 +3,6 @@ html {
     align-items: center;
 }
 
-.errorPageContainer {
-    background-color: black;
-}
 
 .error {
     font-family: "Chakra Petch", Arial, Helvetica, sans-serif;

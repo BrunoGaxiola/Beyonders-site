@@ -1,22 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jacquarda+Bastarda+9&family=Kaushan+Script&display=swap');
-.title {
-    font-family: "Chakra Petch", Arial, Helvetica, sans-serif;
+html {
+    text-align: center;
+}
+
+.thirdPageTitle {
     font-size: 8rem;
-    margin: 0 0 1rem 0;
-    color: #FFF7F7;
+    color: #fff7f7;
+    margin: 0;
 }
 
-.dialog {
-    color: #FFF7F7;
-    font-size: 2.188rem;
-    padding: 0 5rem 0 5rem;
+.thirdPageExplanation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.thirdPageContainer {
-    gap: 1rem;
+.thirdPageText {
+    color: #fff7f7;
+    font-size: 2.25rem;
 }
 
-.contentContainer{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+img {
+    align-items: center;
+    width: 20%;
+    height: 20%;
 }

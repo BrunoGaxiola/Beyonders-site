@@ -1,29 +1,22 @@
-import { useNavigate } from "react-router-dom";
-import "./ThirdPage.css";
+import { useNavigate } from 'react-router-dom';
+import './ThirdPage.css'
+import BlorgSpeaks from '../assets/BlorgSpeaks.gif'
 
 const ThirdPage = () => {
-  const navigate = useNavigate();
+    const navigate = useNavigate();
+    return(
+        <>
+            <p className="thirdPageTitle">Exoplanets</p>
+            <div className="thirdPageExplanation">
+                <img src={BlorgSpeaks} alt="" />
+                <p className="thirdPageText">
+                So first of all, what are Exoplanets? <br /> Exoplanets are other planets that exist
+                <br /> OUTSIDE of the “solar system” that you <br /> live in.</p>
+            </div>
+            <button onClick={() => navigate('/fourthPage')} className="next">Next</button>
+        </>
+    );
 
-  return (
-    <>
-      <div className="thirdPageContainer">
-        <p className="title">Exoplanets</p>
-
-        <div className="contentContainer">
-            <div className="mascot">MASCOT</div>
-            <p className="dialog">
-            So first of all, what are Exoplanets? 
-            Exoplanets are other planets that exist 
-            OUTSIDE of the “solar system” that you 
-            live in.
-            </p>
-        </div>
-        
-      </div>
-
-        <button className="next" onClick={() => navigate('/fourthPage')}> Next </button>
-    </>
-  );
-};
+}
 
 export default ThirdPage;
