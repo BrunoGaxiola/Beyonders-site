@@ -84,6 +84,7 @@ html {
     border-radius: 2rem;
     border: none;
     background: radial-gradient(circle, #1230AE, #C68FE6);
+    animation: glowAnimation 6s ease-in-out infinite;
 }
 
 .back:hover {
