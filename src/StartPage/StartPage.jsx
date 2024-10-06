@@ -1,6 +1,9 @@
+import { Navigate, useNavigate } from "react-router-dom";
 import "./StartPage.css"
 
 const StartPage = () => {
+
+    const navigate = useNavigate();
     return(
         <>
             <div className="startPageContainer">
@@ -13,7 +16,8 @@ const StartPage = () => {
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
-                        <button className="start"> Let's Get Started! </button>
+                        <button className="start" onClick={() => navigate('/firstPage')}> Let's Get Started! </button>
+
                     </div>
                 </div>
             </div>

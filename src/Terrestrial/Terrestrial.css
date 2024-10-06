@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jacquarda+Bastarda+9&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+html {
+    background-color: #1a1a1a;
+    padding: 2rem;
+}
+
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: #fff7f7;
+  }
+  
+  .row {
+    width: 80%; /* Adjust as needed for page width */
+    margin: 20px 0;
+  }
+  
+  .titleRow {
+    text-align: center;
+  }
+  
+  .contentRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .contentImageBarCode {
+    width: 100px; /* Adjust size of the images */
+    height: auto;
+    margin-left: 20px;
+  }
+  
+  .contentImage {
+    width: 450px; /* Adjust size of the images */
+    height: auto;
+    margin-right: 20px;
+  }
+  .contentImageAlien {
+    width: 100px; /* Adjust size of the images */
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .contentText {
+    flex: 1;
+    font-size: 24px;
+    font-family: "Cutive Mono",Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .contentTitle {
+    font-size: 50px; /* Adjust the size to your preference */
+    font-family: "Chakra Petch",Arial, Helvetica, sans-serif;
+    font-style: italic; /* Para texto en itálica */
+    text-decoration: underline; /* Para subrayar el texto */
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10%;
+    text-align: left;
+    display: flex;
+    position:absolute;
+
+  }
+
+  .contentBarCode{
+      font-family: "Libre Barcode EAN13 Text";
+     font-size: 24px;
+  }
+
+  .back {
+    font-family: "Chakra Petch", Arial, Helvetica, sans-serif;
+    color: #fff7f7;
+    font-size: 1rem;
+    margin: 1rem;
+    width: 6rem;
+    height: 3rem;
+    background-color: rgb(182, 32, 177);
+    border-radius: 2rem;
+    border: none;
+    background: radial-gradient(circle, #1230AE, #C68FE6);
+}
+
+.back:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.back:active {
+    opacity: 0.8;
+}
