@@ -2,7 +2,7 @@
 
 ## About
 
-This is the Github repository for team Beyonders' Nasa Space Apps Challenge 2024, with the challenge "Chronicles of Exoplanet Exploration". A web application designed as an educational tool for learning about exoplanets.
+This is the Github repository for team Beyonders' **Nasa Space Apps Challenge 2024**, with the challenge "Chronicles of Exoplanet Exploration". A web application designed as an educational tool for learning about exoplanets.
 
 
 ## System Requirements
