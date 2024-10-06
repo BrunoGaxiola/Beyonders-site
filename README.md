@@ -1,8 +1,45 @@
-# React + Vite
+# Beyonders
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About
 
-Currently, two official plugins are available:
+This is the Github repository for team Beyonders' Nasa Space Apps Challenge 2024, with the challenge "Chronicles of Exoplanet Exploration". A web application designed as an educational tool for learning about exoplanets.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## System Requirements
+
+- Node.js 10.8.3
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/BrunoGaxiola/Beyonders-site
+```
+
+Go to the project directory
+
+```bash
+  cd Beyonders-site
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+## Authors
+
+- [@BrunoGaxiola](https://github.com/BrunoGaxiola) Bruno Gaxiola Gonzalez
+- [@jesusmtzarvizu](https://github.com/jesusmtzarvizu) Jesus Martínez Arvizu
+- [@AlejandroAtondo](https://github.com/AlejandroAtondo) Darío Alejandro Atondo Ojeda
+- [@Prometeus935](https://github.com/Prometeus935) Luis Pablo Cárdenas Salas 
+- [@eduardocardenasv27](https://github.com/eduardocardenasv27) Eduardo Cárdenas Valadez
+
