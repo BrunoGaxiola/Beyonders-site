@@ -8,14 +8,12 @@ const NeptuneLike = () => {
     return (
         <>
             <div className="pageContainer">
-                {/* Row 1: Title */}
                 <div className="row contentRow">
 
                     <button className="back" onClick={() => navigate('/SelectPage')}> Back </button>
                     <p className="contentTitle">Kepler-22B</p>
                 </div>
 
-                {/* Row 2: Image and Paragraph */}
                 <div className="row contentRow">
                     <img src={toi1231b} alt="Left Image 1" className="contentImage" />
                     <ul className="contentText">
@@ -27,8 +25,6 @@ const NeptuneLike = () => {
 
                 </div>
 
-
-                {/* Row 3: Image and Paragraph */}
                 <div className="row contentRow">
                     <img src={BlorgSpeaks} alt="Left Image 2" className="contentImageAlien" />
                     <p className="contentText">

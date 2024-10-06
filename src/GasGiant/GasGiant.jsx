@@ -8,14 +8,12 @@ const GasGiant = () => {
     return (
         <>
             <div className="pageContainer">
-                {/* Row 1: Title */}
                 <div className="row contentRow">
 
                     <button className="back" onClick={() => navigate('/SelectPage')}> Back </button>
                     <p className="contentTitle">PSR J1719-1438 b</p>
                 </div>
 
-                {/* Row 2: Image and Paragraph */}
                 <div className="row contentRow">
                     <img src={Psjr1} alt="Left Image 1" className="contentImage" />
                     <ul className="contentText">
@@ -29,8 +27,6 @@ const GasGiant = () => {
 
                 </div>
 
-
-                {/* Row 3: Image and Paragraph */}
                 <div className="row contentRow">
                     <img src={BlorgSpeaks} alt="Left Image 2" className="contentImageAlien" />
                     <p className="contentText">

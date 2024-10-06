@@ -15,7 +15,7 @@ html {
   }
   
   .row {
-    width: 80%; /* Adjust as needed for page width */
+    width: 80%; 
     margin: 20px 0;
   }
   
@@ -31,18 +31,18 @@ html {
     margin-bottom: 0px;
   }
   .contentImageBarCode {
-    width: 100px; /* Adjust size of the images */
+    width: 100px; 
     height: auto;
     margin-left: 20px;
   }
   
   .contentImage {
-    width: 450px; /* Adjust size of the images */
+    width: 450px; 
     height: auto;
     margin-right: 20px;
   }
   .contentImageAlien {
-    width: 100px; /* Adjust size of the images */
+    width: 100px; 
     height: auto;
     margin-right: 20px;
   }
@@ -55,10 +55,10 @@ html {
     margin-bottom: 0;
   }
   .contentTitle {
-    font-size: 50px; /* Adjust the size to your preference */
+    font-size: 50px; 
     font-family: "Chakra Petch",Arial, Helvetica, sans-serif;
-    font-style: italic; /* Para texto en itálica */
-    text-decoration: underline; /* Para subrayar el texto */
+    font-style: italic; 
+    text-decoration: underline; 
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 10%;

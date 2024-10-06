@@ -1,5 +1,6 @@
-.desc {
+.descFourthPage {
     margin-top: 125px; 
+    font-size: 2rem;
 }
 .allText {
     text-align: center; 
@@ -15,11 +16,9 @@
 }
 
 .otherImages {
-  
     position: absolute; 
     top: 20px; 
     right: 40%; 
     height: 180px; 
     width: 180px; 
-
 }

@@ -3,7 +3,7 @@ import BlorgThinks from '../assets/blorgThinks.gif'
 import Kepler11B from '../assets/kepler11spin.gif'
 import { useNavigate } from 'react-router-dom';
 
-const FourthPage =()=>{ 
+const FourthPage = () => { 
     const navigate = useNavigate();
     return(
         <>
@@ -18,7 +18,7 @@ const FourthPage =()=>{
                     <div className="planetImages">
                         <img src={Kepler11B} alt="Planet 1" className="planetImage" />
                     </div>
-                        <p className="desc">
+                        <p className="descFourthPage">
                         I don't know if you know, but your planet "Earth" has <br /> other planets as its neighbors, some of them
                         are <br /> called "Mars", "Venus", "Jupiter" and such! "Where <br /> am I from?", you say? Maybe tell you after we're <br /> friends long enough. For now, lemme tak you to <br /> show you some exoplanets!
                         </p>

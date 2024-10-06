@@ -13,7 +13,7 @@ const SelectPage = () => {
         <div className="selectPageContainer">
             <div className="dialog">
                 <img src={BlorgSpeaks} alt="" />
-                <p className="choice">Please, tell me which type of <br /> exoplanet you want to see!</p>
+                <p className="choice">Please, tell me which type of <br /> exoplanet you want to explore!</p>
             </div>
             <div className="cards">
                 <div onClick={() => navigate('/selectPage/terrestrial')} className="typeCard">

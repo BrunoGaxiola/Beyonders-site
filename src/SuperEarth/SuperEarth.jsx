@@ -8,14 +8,12 @@ const SuperEarth = () => {
     return (
         <>
             <div className="pageContainer">
-                {/* Row 1: Title */}
                 <div className="row contentRow">
 
                     <button className="back" onClick={() => navigate('/selectPage')}> Back </button>
                     <p className="contentTitle">Kepler-22B</p>
                 </div>
 
-                {/* Row 2: Image and Paragraph */}
                 <div className="row contentRow">
                     <img src={Kepler22b} alt="Left Image 1" className="contentImage" />
                     <ul className="contentText">
@@ -28,7 +26,6 @@ const SuperEarth = () => {
 
                 </div>
 
-                {/* Row 3: Image and Paragraph */}
                 <div className="row contentRow">
                     <img src={BlorgSpeaks} alt="Left Image 2" className="contentImageAlien" />
                     <p className="contentText">It is so far away, that we would actually need to travel 644 years at the speed of light to reach it.

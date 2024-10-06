@@ -8,14 +8,12 @@ const Terrestrial = () => {
     return (
         <>
             <div className="pageContainer">
-                {/* Row 1: Title */}
                 <div className="row contentRow">
 
                 <button className="back" onClick={() => navigate('/SelectPage')}> Back </button>
                     <p className="contentTitle">KEPLER-11B</p>
                 </div>
 
-                {/* Row 2: Image and Paragraph */}
                 <div className="row contentRow">
                     <img src={Kepler11b} alt="Left Image 1" className="contentImage" />
                     <ul className="contentText">
@@ -27,7 +25,6 @@ const Terrestrial = () => {
 
                 </div>
 
-                {/* Row 3: Image and Paragraph */}
                 <div className="row contentRow">
                     <img src={BlorgSpeaks} alt="Left Image 2" className="contentImageAlien" />
                     <p className="contentText">Kepler-11 b was discovered by the transit method, which means that the exoplanet was observed while overlapping it with its star.
