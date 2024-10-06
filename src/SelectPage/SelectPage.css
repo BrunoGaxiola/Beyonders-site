@@ -43,11 +43,22 @@
     border: 2px solid #FFF7F7; 
     flex-direction: column;
     align-content: center;
+    animation: glowAnimation 3s ease-in-out infinite;
+}
+
+@keyframes glowAnimation {
+    0%, 100% {
+        box-shadow: 0px 0px 10px 5px rgba(28, 28, 28, 0.4);
+    }
+    50% {
+        box-shadow: 0px 0px 30px 15px rgba(255, 255, 255, 0.8);
+    }
 }
 
 .typeCard:hover {
     cursor: pointer;
     opacity: 0.9;
+    box-shadow: 0px 0px 30px 15px rgba(255, 254, 255, 0.8);
 }
 
 .typeCard:active {

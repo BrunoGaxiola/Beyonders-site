@@ -2,10 +2,16 @@
 
 
 html {
+    background-image: url('../assets/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
     font-family: "Chakra Petch", Arial, Helvetica, sans-serif;
     background-color: #1a1a1a;
     padding: 2rem;
     text-align: center;
+    margin: 0;
     
 }
 
@@ -25,6 +31,7 @@ html {
     border-radius: 2rem;
     border: none;
     background: radial-gradient(circle, #1230AE, #C68FE6);
+    animation: glowAnimation 6s ease-in-out infinite;
 }
 
 .next:hover {

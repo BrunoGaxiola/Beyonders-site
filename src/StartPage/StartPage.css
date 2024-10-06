@@ -1,47 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jacquarda+Bastarda+9&family=Kaushan+Script&display=swap');
+/* Import the fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
 html {
     background-color: #1a1a1a;
-    padding: 2rem;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.startPageContainer {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    align-content: center;
+}
+
+.backgroundVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1; /* Places video behind all other content */
+    opacity: 0.6; /* Adjust opacity for readability */
 }
 
 .allText {
-    padding: 0 9rem 0 9rem;
-    align-items: center;
+    position: relative;
+    z-index: 1; /* Keeps text above the background video */
+    padding: 0 9rem;
     text-align: center;
     color: #fff7f7;
 }
 
 .title {
-    font-family: "Chakra Petch", Arial, Helvetica, sans-serif;
+    font-family: "Chakra Petch", Arial, sans-serif;
     font-size: 8rem;
     margin: 0 0 1rem 0;
 }
 
 .descStartPage {
-    font-family: "Chakra Petch", Arial, Helvetica, sans-serif;
-    font-size: 4.063rem;
+    font-family: "Chakra Petch", Arial, sans-serif;
+    font-size: 4rem;
     margin: 0;
 }
 
 .start {
-    font-family: "Chakra Petch", Arial, Helvetica, sans-serif;
+    font-family: "Chakra Petch", Arial, sans-serif;
     color: #fff7f7;
     font-size: 3rem;
     margin: 3rem;
     width: 35rem;
     height: 7rem;
-    background-color: rgb(182, 32, 177);
+    background: radial-gradient(circle, #1230AE, #C68FE6);
     border-radius: 2rem;
     border: none;
-    background: radial-gradient(circle, #1230AE, #C68FE6);
+    cursor: pointer;
+    animation: glowAnimation 6s ease-in-out infinite;
 }
 
+
 .start:hover {
-    cursor: pointer;
-    opacity: 0.90;
+    opacity: 0.9;
 }
 
 .start:active {
-    opacity: 0.80;
+    opacity: 0.8;
 }
