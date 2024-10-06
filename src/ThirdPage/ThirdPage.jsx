@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import './ThirdPage.css'
 import BlorgSpeaks from '../assets/BlorgSpeaks.gif'
+import Exo3 from '../assets/exoplanet3.gif'
 
 const ThirdPage = () => {
     const navigate = useNavigate();
@@ -14,9 +15,9 @@ const ThirdPage = () => {
                 <br /> OUTSIDE of the “solar system” that you <br /> live in.</p>
             </div>
             <button onClick={() => navigate('/fourthPage')} className="next">Next</button>
+            <img src={Exo3} alt="Planet 3" className="planetImage3" />
         </>
     );
-
 }
 
 export default ThirdPage;

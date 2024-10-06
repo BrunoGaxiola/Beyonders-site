@@ -11,6 +11,14 @@ html {
     align-content: center;
 }
 
+.planetImage2 {
+    position: absolute;
+    height: 180px; 
+    width: 180px; 
+    top: 70%;
+    left: 45%;
+}
+
 img {
     width: 30%;
     height: 30%;

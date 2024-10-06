@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import './SecondPage.css'
 import BlorgThinks from '../assets/blorgThinks.gif'
+import Exo2 from '../assets/exoplanet2.gif'
 
 const SecondPage = () => {
     const navigate = useNavigate();
@@ -15,6 +16,7 @@ const SecondPage = () => {
                 <img className='mascot' src={BlorgThinks} alt="" />
             </div>
             <button className="next" onClick={() => navigate('/thirdPage')}> Next </button>
+            <img src={Exo2} alt="Planet 2" className="planetImage2" />
         </div>
         </>
     );

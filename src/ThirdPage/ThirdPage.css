@@ -24,3 +24,9 @@ img {
     width: 20%;
     height: 20%;
 }
+.planetImage3 {
+    position: absolute;
+    width: 12%;
+    height: 20%;
+    left: 85%;
+}
