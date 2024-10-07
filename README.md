@@ -4,6 +4,10 @@
 
 This is the Github repository for team Beyonders' **Nasa Space Apps Challenge 2024**, with the challenge "Chronicles of Exoplanet Exploration". A web application designed as an educational tool for learning about exoplanets.
 
+## Deployment
+
+Link to the deployed site: [Beyonders](https://ornate-pithivier-24350d.netlify.app/)
+
 
 ## System Requirements
 
