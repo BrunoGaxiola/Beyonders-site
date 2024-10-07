@@ -1,7 +1,7 @@
 import './NeptuneLike.css'
 import { useNavigate } from "react-router-dom"
 import toi1231b from '../assets/toi1231spin.gif'
-import BlorgSpeaks from '../assets/BlorgSpeaks.gif'
+import BlorgSpeaks from '../assets/blorgSpeaks.gif'
 
 const NeptuneLike = () => {
     const navigate = useNavigate();
