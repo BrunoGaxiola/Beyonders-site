@@ -1,10 +1,10 @@
 import { useNavigate } from 'react-router-dom';
 import './SelectPage.css'
-import Kepler11B from '../assets/Kepler11spin.gif'
-import Kepler22B from '../assets/Keplerspin22B.gif'
+import Kepler11B from '../assets/kepler11spin.gif'
+import Kepler22B from '../assets/keplerspin22B.gif'
 import Toi1231B from '../assets/toi1231spin.gif'
-import Psjr1 from '../assets/Psjr1spin.gif'
-import BlorgSpeaks from '../assets/BlorgSpeaks.gif'
+import Psjr1 from '../assets/psjr1spin.gif'
+import BlorgSpeaks from '../assets/blorgSpeaks.gif'
 
 const SelectPage = () => {
     const navigate = useNavigate();

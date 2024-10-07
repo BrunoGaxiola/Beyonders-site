@@ -1,7 +1,7 @@
 import './Terrestrial.css'
 import {useNavigate} from "react-router-dom"
 import Kepler11b from '../assets/kepler11spin.gif'
-import BlorgSpeaks from '../assets/BlorgSpeaks.gif'
+import BlorgSpeaks from '../assets/blorgSpeaks.gif'
 
 const Terrestrial = () => {
     const navigate=useNavigate();

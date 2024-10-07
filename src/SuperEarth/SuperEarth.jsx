@@ -1,7 +1,7 @@
 import './SuperEarth.css'
 import { useNavigate } from "react-router-dom"
 import Kepler22b from '../assets/keplerspin22b.gif'
-import BlorgSpeaks from '../assets/BlorgSpeaks.gif'
+import BlorgSpeaks from '../assets/blorgSpeaks.gif'
 
 const SuperEarth = () => {
     const navigate = useNavigate();

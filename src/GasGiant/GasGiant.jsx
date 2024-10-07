@@ -1,7 +1,7 @@
 import './GasGiant.css'
 import { useNavigate } from "react-router-dom"
 import Psjr1 from '../assets/psjr1spin.gif'
-import BlorgSpeaks from '../assets/BlorgSpeaks.gif'
+import BlorgSpeaks from '../assets/blorgSpeaks.gif'
 
 const GasGiant = () => {
     const navigate = useNavigate();

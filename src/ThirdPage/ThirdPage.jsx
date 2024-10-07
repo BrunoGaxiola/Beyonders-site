@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import './ThirdPage.css'
-import BlorgSpeaks from '../assets/BlorgSpeaks.gif'
+import BlorgSpeaks from '../assets/blorgSpeaks.gif'
 import Exo3 from '../assets/exoplanet3.gif'
 
 const ThirdPage = () => {

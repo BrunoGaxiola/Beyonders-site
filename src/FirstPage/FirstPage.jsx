@@ -1,6 +1,6 @@
 import { Navigate, useNavigate } from 'react-router-dom';
 import './FirstPage.css'
-import BlorgSaysHi from '../assets/BlorgSaysHi.gif'
+import BlorgSaysHi from '../assets/blorgSaysHi.gif'
 import Exo1 from '../assets/exoplanet1.gif'
 
 const FirstPage = () => {
